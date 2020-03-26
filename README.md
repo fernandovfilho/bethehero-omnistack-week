@@ -17,7 +17,7 @@ This project is based on Omnistack Week 11 developed by Rocketseat, the objectiv
 </p>
 
 ## backend
-Before start you need to configure an external MongoDB instance and create a .env file based on .env.example with the connection data. To install the dependences and run the server in development mode execute:
+To install the dependences and run the server in development mode execute:
 ```bash
 cd backend
 yarn install
