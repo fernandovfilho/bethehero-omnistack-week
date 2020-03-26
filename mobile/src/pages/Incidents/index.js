@@ -67,6 +67,8 @@ export default function Incidents() {
       showsVerticalScrollIndicator={false}
       onEndReached={loadIncidents}
       onEndReachedThreshold={0.2}
+      onRefresh={loadIncidents}
+      refreshing={loading}
       renderItem={({ item: incident }) => (
           <View style={styles.incident}>
             <Text style={styles.incidentProperty}>ONG:</Text>
