@@ -16,15 +16,16 @@ This project is based on Omnistack Week 11 developed by Rocketseat, the objectiv
   </a>
 </p>
 
-### backend
+## backend
 Before start you need to configure an external MongoDB instance and create a .env file based on .env.example with the connection data. To install the dependences and run the server in development mode execute:
 ```bash
 cd backend
 yarn install
 yarn start
 ```
+> If you need use the file "insomnia_workspace.json" to import Insomnia Workspace and access the routes.
 
-### frontend
+## frontend
 To start the web frontend run the following commands:
 ```bash
 cd frontend
@@ -32,7 +33,11 @@ yarn install
 yarn start
 ```
 
-### mobile
+### Screenshots
+![](images/frontend-1.jpg)
+![](images/frontend-2.jpg)
+
+## mobile
 Before start the mobile change the file `src/services/api.js` with your machine address in your network and execute:
 ```bash
 # If you don't have the expo-cli installed run this line above
@@ -41,6 +46,11 @@ cd mobile
 yarn install
 yarn start
 ```
+
+### Screenshots
+![](images/mobile-2.jpg)
+![](images/mobile-1.jpg)
+
 After that access the application using an emulator or the Expo App.
 ## License
 
