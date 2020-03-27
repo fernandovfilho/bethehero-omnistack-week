@@ -5,11 +5,11 @@ const connection = require('../../src/database/connection');
 describe('ONG', () => {
     
     beforeEach(async () => {
-        await connection.migrate.rollback();
         await connection.migrate.latest();
     });
 
     afterAll(async () => {
+        await connection.migrate.rollback();
         await connection.destroy();
     });
     
